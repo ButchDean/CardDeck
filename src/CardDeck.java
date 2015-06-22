@@ -5,6 +5,8 @@ public class CardDeck {
 	{
 		Cards pack = new Cards();
 		
+		pack.InitDeck();
+		
 		pack.ShuffleDeck();
 		System.out.println("With value: " + pack.GetCardValue(pack.Draw()));
 		System.out.println("With value: " + pack.GetCardValue(pack.Draw()));
@@ -16,7 +18,6 @@ public class CardDeck {
 		
 		System.out.println("Draw remaining cards until all have been dealt it...");
 		while(pack.GetCardValue(pack.Draw()) > 0);
-
 	}
 
 }

@@ -8,14 +8,20 @@ public class Cards {
 		// Card deck object.
 		deck = new ArrayList<CardRefs>();
 		
+		// Create random number generator object.
+		randGen = new Random();
+	}
+	
+	public void InitDeck()
+	{
+		// Make sure deck is empty.
+		deck.clear();
+		
 		// Create unshuffled deck.
 		for(CardRefs c : CardRefs.values())
 		{
 			deck.add(c);
-		}
-		
-		// Create random number generator object.
-		randGen = new Random();
+		}		
 	}
 	
 	public void PrintDeck()

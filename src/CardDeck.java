@@ -16,7 +16,7 @@ public class CardDeck {
 		System.out.println("With value: " + pack.GetCardValue(pack.Draw()));
 		System.out.println("With value: " + pack.GetCardValue(pack.Draw()));
 		
-		System.out.println("Draw remaining cards until all have been dealt it...");
+		System.out.println("Draw remaining cards until all have been dealt...");
 		while(pack.GetCardValue(pack.Draw()) > 0);
 	}
 

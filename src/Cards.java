@@ -71,11 +71,11 @@ public class Cards {
 	
 	public int GetCardValue(CardRefs card)
 	{
-		String[] faceBadge = {"_A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "_J", "_Q", "_K"};
+		String[] rank = {"_A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "_J", "_Q", "_K"};
 		
-		for(int i = 0; i < faceBadge.length; i++)
+		for(int i = 0; i < rank.length; i++)
 		{
-			if(card.toString().contains(faceBadge[i]))
+			if(card.toString().contains(rank[i]))
 				return cardVals[i];
 		}
 		

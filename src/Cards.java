@@ -36,7 +36,7 @@ public class Cards {
 	{
 		CardRefs[] temp = {CardRefs.EMPTY_DECK, CardRefs.EMPTY_DECK};
 		
-		for(int i = 0; i < 500000; i++)
+		for(int i = 0; i < 5000; i++)
 		{
 			int r = randGen.nextInt(deck.size() - 1);
 			temp[0] = deck.get(r);

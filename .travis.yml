@@ -1,0 +1,14 @@
+language: java
+
+jdk:
+    - oraclejdk7
+    - oraclejdk8
+
+script:
+    - cd src/
+    - jdk_switcher use oraclejdk7
+    - javac src/CardDeck.java
+    - java src/CardDeck
+    - jdk_switcher use oraclejdk8
+    - javac src/CardDeck.java
+    - java src/CardDeck

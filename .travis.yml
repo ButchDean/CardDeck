@@ -2,4 +2,5 @@ language: java
 
 script:
     - cd src/
-    - ant main
+    - javac CardDeck.java
+    - java CardDeck

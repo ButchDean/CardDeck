@@ -1,6 +1,6 @@
 # PlayingCardsJava
 
-[![Build Status](https://travis-ci.org/ButchDean/CardDeck.svg?branch=master)](https://travis-ci.org/ButchDean/CardDeck)
+[![Build Status](https://travis-ci.org/ButchDean/PlayingCardsJava.svg?branch=master)](https://travis-ci.org/ButchDean/PlayingCardsJava)
 
 Performs required card functionality like dealing and shuffling that can be part of any game. The deck may be reshuffled at any point, irrespective of the remaining cards in the deck.
 
